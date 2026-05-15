@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "@playwright/test"]
+  },
+  "include": [
+    "tests/**/*",
+    "**/*.ts"
+  ]
+}
